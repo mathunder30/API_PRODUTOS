@@ -13,7 +13,7 @@ const ProdutoSchema = new Schema<IProduto>({
     preco: { type: Number, required: true},
     quantidade: { type: Number, required: true}
 }, {
-    timestamps: true
+    timestamps: true 
 });
 
 const ProdutoModel = model<IProduto>('Produtos', ProdutoSchema);
