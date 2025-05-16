@@ -3,6 +3,6 @@ import { criarProduto} from "../controllers/ProdutosControllers";
 const router = Express.Router();
 
 //Rota para criar produto
-router.get('/get_produto', criarProduto);
+router.post('/cadastrar', criarProduto);
 
 export default router;
